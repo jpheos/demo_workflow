@@ -5,5 +5,9 @@
   <p><%= post.title %></p>
   <%= image_tag post.avatar_url, alt: post.title %>
 </div>
-<%= link_to "+", vote_path(post), method: :post, class: 'vote', id: "vote_#{post.id}" %>
+
+
+<%= link_to vote_path(post), method: :post, class: 'vote', id: "vote_#{post.id}" do %>
+  <%= image_tag "https://cdn3.iconfinder.com/data/icons/unicons-vector-icons-pack/32/plus-512.png", alt: "alttext" %>
+<% end %>
 
