@@ -1,13 +1,18 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
 one:
-  title: MyString
-  url: MyString
-  votes: 1
-  avatar_url: MyString
+  title: "Title 1"
+  url: "http://url-bidon.com"
+  votes: 5
+  avatar_url: "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/8_avatar-512.png"
 
 two:
-  title: MyString
-  url: MyString
-  votes: 1
-  avatar_url: MyString
+  title: "Title 2"
+  url: "http://url-bidon.com"
+  votes: 3
+  avatar_url: "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/3_avatar-512.png"
+
+three:
+  title: "Title 3"
+  url: "http://url-bidon.com"
+  votes: 2
+  avatar_url: "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/4_avatar-512.png"
