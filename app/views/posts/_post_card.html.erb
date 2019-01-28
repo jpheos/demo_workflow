@@ -1,0 +1,11 @@
+<div class="post_card">
+  <div class="votes">
+    <%= post.votes %>
+  </div>
+  <p><%= post.title %></p>
+  <%= image_tag post.avatar_url, alt: post.title %>
+</div>
+<div class="vote">
+  <%= link_to "+", vote_path(post), method: :post %>
+</div>
+
